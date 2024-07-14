@@ -1,0 +1,77 @@
+
+main.video-content{
+  width: 900px;
+  margin: 40px;
+  .icons{
+    font-size: 15px;
+  }
+  .video-thumb{
+    width: 900px;
+    border-radius: 10px;
+  }
+  .video-title{
+    padding: 2% 0%;
+  }
+  .extra-info{
+    height: 50px;
+    display: flex;
+    .channel-photo{
+      width: 50px;
+      border-radius: 50%;
+    }
+    .channel-about{
+      padding: 0px 20px ;
+      .channel-name{
+        font-size: 15px;
+      }
+      .channel-subs{
+        font-size: 12px;
+      }
+    }
+    .buttons{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 700px;
+      padding: 0px 20px;
+      .interact-button{
+        border-radius: 15px;
+        margin: 0px 2%;
+        color: white;
+        background-color: rgba(170, 170, 170, 0.695);
+        width: 150px;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+      }
+      #sub-button{
+        background-color: white;
+        color: black;
+        &:hover{
+          background-color: rgb(209, 209, 209);
+        }
+      }
+
+      #likes-button{
+        &:hover{
+          background-color: rgb(140, 140, 140);
+        }
+      }
+
+      #share-button{
+        &:hover{
+          background-color: rgb(140, 140, 140);
+        }
+      }
+
+      #more-button{
+        margin: auto;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        font-size: 22px;
+      }
+    }
+  }
+}
+

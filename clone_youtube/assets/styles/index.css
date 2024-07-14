@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+.container-top {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+}
+.container-top .menu-bar {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.container-top .menu-bar .youtube-icon {
+  width: 22px;
+}
+.container-top .icon {
+  color: white;
+  font-size: 22px;
+}
+.container-top .center-itens {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.container-top .center-itens .nav-bar {
+  display: flex;
+  justify-content: space-between;
+  border: 0.2px solid lightgray;
+  width: 300px;
+  padding: 2.5px;
+  border-radius: 20px;
+}
+.container-top .center-itens .nav-bar .search-bar {
+  background-color: transparent;
+  border: none;
+  width: 200px;
+}
+.container-top .center-itens .nav-bar input.search-bar {
+  color: white;
+  padding-left: 10px;
+}
+.container-top .center-itens .nav-bar input[type=text]::-moz-placeholder {
+  padding-left: 10px;
+  color: white;
+}
+.container-top .center-itens .nav-bar input[type=text]::placeholder {
+  padding-left: 10px;
+  color: white;
+}
+.container-top .center-itens #search-icon {
+  padding: 4px;
+}
+.container-top .icons-profile {
+  width: 150px;
+  justify-content: space-between;
+}
+.container-top .icons-profile .profile-image {
+  width: 22px;
+  border-radius: 50%;
+}
+
+main.video-content {
+  width: 900px;
+  margin: 40px;
+}
+main.video-content .icons {
+  font-size: 15px;
+}
+main.video-content .video-thumb {
+  width: 900px;
+  border-radius: 10px;
+}
+main.video-content .video-title {
+  padding: 2% 0%;
+}
+main.video-content .extra-info {
+  height: 50px;
+  display: flex;
+}
+main.video-content .extra-info .channel-photo {
+  width: 50px;
+  border-radius: 50%;
+}
+main.video-content .extra-info .channel-about {
+  padding: 0px 20px;
+}
+main.video-content .extra-info .channel-about .channel-name {
+  font-size: 15px;
+}
+main.video-content .extra-info .channel-about .channel-subs {
+  font-size: 12px;
+}
+main.video-content .extra-info .buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 700px;
+  padding: 0px 20px;
+}
+main.video-content .extra-info .buttons .interact-button {
+  border-radius: 15px;
+  margin: 0px 2%;
+  color: white;
+  background-color: rgba(170, 170, 170, 0.695);
+  width: 150px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+main.video-content .extra-info .buttons #sub-button {
+  background-color: white;
+  color: black;
+}
+main.video-content .extra-info .buttons #sub-button:hover {
+  background-color: rgb(209, 209, 209);
+}
+main.video-content .extra-info .buttons #likes-button:hover {
+  background-color: rgb(140, 140, 140);
+}
+main.video-content .extra-info .buttons #share-button:hover {
+  background-color: rgb(140, 140, 140);
+}
+main.video-content .extra-info .buttons #more-button {
+  margin: auto;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.test {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.more-videos {
+  margin-top: 40px;
+  width: 200px;
+}
+.more-videos .video-card {
+  padding: 8px 0px 10px 0px;
+  border-bottom: 0.1px solid rgba(211, 211, 211, 0.104);
+}
+.more-videos .video-card .video-card-image {
+  border-radius: 7.5px;
+  width: 100px;
+}
+.more-videos .video-card .video-title {
+  font-size: 16px;
+}
+.more-videos .video-card .channel-name {
+  color: rgba(255, 255, 255, 0.711);
+}
+.more-videos .video-card span.views {
+  font-size: 10px;
+}/*# sourceMappingURL=index.css.map */
